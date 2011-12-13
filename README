@@ -1,0 +1,8 @@
+A simple module to replace `Backbone.sync` with *sessionStorage*-based
+persistence. Models are given GUIDS, and saved into a JSON object. Simple
+as that.
+
+this is from backbone-localstorage - but I have a need to use sessionStorage, utilizing amplify.js
+
+see http://documentcloud.github.com/backbone/docs/backbone-localstorage.html
+see http://amplifyjs.com/api/store/
